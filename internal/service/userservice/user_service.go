@@ -2,10 +2,10 @@ package userservice
 
 import (
 	"context"
+	"git.thoughtworks.net/mahadeva/sample-golang/internal/db"
+	"git.thoughtworks.net/mahadeva/sample-golang/internal/domain"
+	errors2 "git.thoughtworks.net/mahadeva/sample-golang/pkg/errors"
 	"github.com/pkg/errors"
-	"spikes/sample-golang/internal/db"
-	"spikes/sample-golang/internal/domain"
-	errors2 "spikes/sample-golang/pkg/errors"
 )
 
 type Client interface {

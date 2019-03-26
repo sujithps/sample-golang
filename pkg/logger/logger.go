@@ -2,13 +2,13 @@ package logger
 
 import (
 	"context"
+	"git.thoughtworks.net/mahadeva/sample-golang/pkg/appcontext"
+	"git.thoughtworks.net/mahadeva/sample-golang/pkg/constant"
 	"log"
 	"os"
-	"spikes/sample-golang/pkg/appcontext"
-	"spikes/sample-golang/pkg/constant"
 
+	"git.thoughtworks.net/mahadeva/sample-golang/pkg/config"
 	"github.com/sirupsen/logrus"
-	"spikes/sample-golang/pkg/config"
 )
 
 var logger *logrus.Logger
@@ -68,7 +68,7 @@ func (l *ContextLogger) Info(method, msg string, fields map[string]interface{}) 
 }
 
 func (l *ContextLogger) Warn(args ...interface{}) {
-	l.entry.Warn(args)
+	l.entry.Warn(args...)
 }
 
 func (l *ContextLogger) WarnWithFields(fields map[string]interface{}, args ...interface{}) {
@@ -77,5 +77,5 @@ func (l *ContextLogger) WarnWithFields(fields map[string]interface{}, args ...in
 			l.entry = l.entry.WithField(key, val)
 		}
 	}
-	l.entry.Warn(args)
+	l.entry.Warn(args...)
 }

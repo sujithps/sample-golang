@@ -1,7 +1,7 @@
 package domain
 
 import (
-	errors2 "spikes/sample-golang/pkg/errors"
+	errors2 "git.thoughtworks.net/mahadeva/sample-golang/pkg/errors"
 )
 
 type User struct {

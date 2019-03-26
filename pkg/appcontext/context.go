@@ -1,8 +1,8 @@
 package appcontext
 
 import (
-	"github.com/newrelic/go-agent"
 	"context"
+	"github.com/newrelic/go-agent"
 	"net/http"
 )
 

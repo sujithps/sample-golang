@@ -19,4 +19,3 @@ func NewInvalidFormatError(field, message, cause string) *InvalidFormatError {
 func (e *InvalidFormatError) Error() string {
 	return fmt.Sprintf("Field %s is invalid, %s : %s ", e.field, e.message, e.cause)
 }
-

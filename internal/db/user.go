@@ -2,11 +2,11 @@ package db
 
 import (
 	"context"
+	"git.thoughtworks.net/mahadeva/sample-golang/internal/domain"
+	errors2or "git.thoughtworks.net/mahadeva/sample-golang/pkg/errors"
+	"git.thoughtworks.net/mahadeva/sample-golang/pkg/profiling"
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
-	"spikes/sample-golang/internal/domain"
-	errors2or "spikes/sample-golang/pkg/errors"
-	"spikes/sample-golang/pkg/profiling"
 )
 
 const (

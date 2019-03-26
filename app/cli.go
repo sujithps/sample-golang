@@ -1,8 +1,8 @@
 package app
 
 import (
+	"git.thoughtworks.net/mahadeva/sample-golang/internal/dependency"
 	"github.com/urfave/cli"
-	"spikes/sample-golang/internal/dependency"
 )
 
 func GetCommands(container *dependency.Container) []cli.Command {

@@ -3,10 +3,10 @@ package middleware
 import (
 	"net/http"
 
+	"fmt"
+	"git.thoughtworks.net/mahadeva/sample-golang/pkg/logger"
 	sentry "github.com/getsentry/raven-go"
 	"github.com/urfave/negroni"
-	"spikes/sample-golang/pkg/logger"
-	"fmt"
 )
 
 func Recover() negroni.HandlerFunc {

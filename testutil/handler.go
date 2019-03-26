@@ -3,14 +3,14 @@ package testutil
 import (
 	"bytes"
 	"encoding/json"
+	"git.thoughtworks.net/mahadeva/sample-golang/internal/dependency"
+	"git.thoughtworks.net/mahadeva/sample-golang/internal/router"
+	"git.thoughtworks.net/mahadeva/sample-golang/pkg/instrumentation/mocks"
 	"github.com/newrelic/go-agent"
 	"github.com/stretchr/testify/assert"
 	"io"
 	"net/http"
 	"net/http/httptest"
-	"spikes/sample-golang/internal/dependency"
-	"spikes/sample-golang/internal/router"
-	"spikes/sample-golang/pkg/instrumentation/mocks"
 	"testing"
 )
 

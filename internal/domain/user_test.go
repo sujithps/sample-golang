@@ -1,10 +1,10 @@
 package domain_test
 
 import (
+	"git.thoughtworks.net/mahadeva/sample-golang/internal/domain"
+	errors2 "git.thoughtworks.net/mahadeva/sample-golang/pkg/errors"
 	"github.com/stretchr/testify/assert"
 	"os"
-	"spikes/sample-golang/internal/domain"
-	errors2 "spikes/sample-golang/pkg/errors"
 	"testing"
 )
 

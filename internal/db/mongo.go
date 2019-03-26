@@ -2,9 +2,9 @@ package db
 
 import (
 	"fmt"
+	"git.thoughtworks.net/mahadeva/sample-golang/pkg/logger"
 	"gopkg.in/mgo.v2"
 	"log"
-	"spikes/sample-golang/pkg/logger"
 )
 
 type MongoDB struct {

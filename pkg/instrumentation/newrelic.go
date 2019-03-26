@@ -1,10 +1,10 @@
 package instrumentation
 
 import (
+	"git.thoughtworks.net/mahadeva/sample-golang/pkg/appcontext"
+	"github.com/gorilla/mux"
 	"github.com/newrelic/go-agent"
 	"net/http"
-	"github.com/gorilla/mux"
-	"spikes/sample-golang/pkg/appcontext"
 )
 
 func InstrumentNewRelicOnRoutes(app newrelic.Application, r *mux.Router) *mux.Router {

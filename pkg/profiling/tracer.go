@@ -1,9 +1,9 @@
 package profiling
 
 import (
-	"github.com/newrelic/go-agent"
 	"context"
-	"spikes/sample-golang/pkg/appcontext"
+	"git.thoughtworks.net/mahadeva/sample-golang/pkg/appcontext"
+	"github.com/newrelic/go-agent"
 )
 
 type Ender interface {
