@@ -1,0 +1,11 @@
+vendor/
+out/
+*.log
+*.out
+.DS_Store
+.tern-port
+.idea
+application.yml
+coverage
+*.html
+*.iml

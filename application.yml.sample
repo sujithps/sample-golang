@@ -1,0 +1,11 @@
+APP_PORT: 8080
+LOG_LEVEL: debug
+LOG_FORMAT: json
+
+NEW_RELIC_LICENSE_KEY: somerandomsomerandomsomerandomsomerandom
+NEW_RELIC_ENABLED: false
+NEW_RELIC_APP_NAME: sample-golang
+NEW_RELIC_IGNORE_STATUS_CODES: 404
+
+MONGO_DB_URL: "mongodb://localhost:27017/"
+MONGO_DB_NAME: "sample_golang"
