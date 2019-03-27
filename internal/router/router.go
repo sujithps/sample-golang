@@ -1,11 +1,11 @@
 package router
 
 import (
+	"git.thoughtworks.net/mahadeva/sample-golang/internal/dependency"
+	"git.thoughtworks.net/mahadeva/sample-golang/internal/handler"
+	"git.thoughtworks.net/mahadeva/sample-golang/pkg/instrumentation"
 	"github.com/gorilla/mux"
 	"net/http"
-	"spikes/sample-golang/internal/dependency"
-	"spikes/sample-golang/internal/handler"
-	"spikes/sample-golang/pkg/instrumentation"
 )
 
 func Router(container *dependency.Container) http.Handler {

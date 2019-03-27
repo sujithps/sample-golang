@@ -1,8 +1,8 @@
 package contract
 
 import (
+	"git.thoughtworks.net/mahadeva/sample-golang/pkg/errors"
 	"net/http"
-	"spikes/sample-golang/pkg/errors"
 )
 
 type Response struct {

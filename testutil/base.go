@@ -1,8 +1,8 @@
 package testutil
 
 import (
-	"spikes/sample-golang/pkg/config"
-	"spikes/sample-golang/pkg/logger"
+	"git.thoughtworks.net/mahadeva/sample-golang/pkg/config"
+	"git.thoughtworks.net/mahadeva/sample-golang/pkg/logger"
 )
 
 func Setup() {

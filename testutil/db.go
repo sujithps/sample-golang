@@ -1,8 +1,8 @@
 package testutil
 
 import (
+	"git.thoughtworks.net/mahadeva/sample-golang/pkg/config"
 	"gopkg.in/mgo.v2"
-	"spikes/sample-golang/pkg/config"
 )
 
 func CleanDb() {
@@ -16,4 +16,3 @@ func CleanDb() {
 	db := session.DB(config.MongoDBName())
 	_ = db.C("users").DropCollection()
 }
-

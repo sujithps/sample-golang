@@ -7,7 +7,7 @@ import (
 	"github.com/newrelic/go-agent"
 )
 
-type StubNewRelicTransaction struct{
+type StubNewRelicTransaction struct {
 	http.ResponseWriter
 }
 

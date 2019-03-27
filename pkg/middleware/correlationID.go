@@ -1,11 +1,11 @@
 package middleware
 
 import (
+	"git.thoughtworks.net/mahadeva/sample-golang/pkg/appcontext"
+	"git.thoughtworks.net/mahadeva/sample-golang/pkg/constant"
 	"github.com/satori/go.uuid"
 	"github.com/urfave/negroni"
 	"net/http"
-	"spikes/sample-golang/pkg/appcontext"
-	"spikes/sample-golang/pkg/constant"
 )
 
 func CorrelationID() negroni.HandlerFunc {

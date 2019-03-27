@@ -3,13 +3,13 @@ package userservice_test
 import (
 	"context"
 	"errors"
+	"git.thoughtworks.net/mahadeva/sample-golang/internal/db/mocks"
+	"git.thoughtworks.net/mahadeva/sample-golang/internal/domain"
+	"git.thoughtworks.net/mahadeva/sample-golang/internal/service/userservice"
+	errors2 "git.thoughtworks.net/mahadeva/sample-golang/pkg/errors"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"os"
-	"spikes/sample-golang/internal/db/mocks"
-	"spikes/sample-golang/internal/domain"
-	"spikes/sample-golang/internal/service/userservice"
-	errors2 "spikes/sample-golang/pkg/errors"
 	"testing"
 )
 

@@ -2,14 +2,13 @@ package db_test
 
 import (
 	"context"
+	"git.thoughtworks.net/mahadeva/sample-golang/internal/db"
+	"git.thoughtworks.net/mahadeva/sample-golang/internal/domain"
+	"git.thoughtworks.net/mahadeva/sample-golang/pkg/config"
+	"git.thoughtworks.net/mahadeva/sample-golang/pkg/errors"
+	"git.thoughtworks.net/mahadeva/sample-golang/testutil"
 	"github.com/stretchr/testify/assert"
 	"os"
-	"spikes/sample-golang/internal/db"
-	"spikes/sample-golang/internal/domain"
-	"spikes/sample-golang/pkg/config"
-	"spikes/sample-golang/pkg/errors"
-	"spikes/sample-golang/pkg/logger"
-	"spikes/sample-golang/testutil"
 	"testing"
 )
 
@@ -71,7 +70,6 @@ func TestMongo_UpdateUserByUserID(t *testing.T) {
 	assert.Equal(t, user.ID, merhchantDoc.ID)
 	assert.Equal(t, user.FirstName, merhchantDoc.FirstName)
 }
-
 
 func setupDB() *db.MongoDB {
 	return db.NewMongoClient(config.MongoURL(), config.MongoDBName())

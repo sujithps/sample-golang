@@ -1,11 +1,11 @@
 package dependency
 
 import (
+	"git.thoughtworks.net/mahadeva/sample-golang/internal/db"
+	"git.thoughtworks.net/mahadeva/sample-golang/internal/dependency/providers"
+	"git.thoughtworks.net/mahadeva/sample-golang/internal/service/userservice"
+	"git.thoughtworks.net/mahadeva/sample-golang/pkg/config"
 	"github.com/newrelic/go-agent"
-	"spikes/sample-golang/internal/db"
-	"spikes/sample-golang/internal/dependency/providers"
-	"spikes/sample-golang/internal/service/userservice"
-	"spikes/sample-golang/pkg/config"
 )
 
 type Container struct {

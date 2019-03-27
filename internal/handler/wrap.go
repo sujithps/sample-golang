@@ -1,14 +1,14 @@
 package handler
 
 import (
-	"fmt"
-	"net/http"
-	"spikes/sample-golang/pkg/contract"
-	"spikes/sample-golang/pkg/errors"
 	"encoding/json"
-	"spikes/sample-golang/pkg/logger"
-	"spikes/sample-golang/pkg/constant"
+	"fmt"
+	"git.thoughtworks.net/mahadeva/sample-golang/pkg/constant"
+	"git.thoughtworks.net/mahadeva/sample-golang/pkg/contract"
+	"git.thoughtworks.net/mahadeva/sample-golang/pkg/errors"
+	"git.thoughtworks.net/mahadeva/sample-golang/pkg/logger"
 	"io/ioutil"
+	"net/http"
 )
 
 type AppHandler func(w http.ResponseWriter, r *http.Request) (*contract.Response, error)
@@ -52,7 +52,7 @@ func Wrap(handler AppHandler) http.HandlerFunc {
 	}
 }
 
-func UnmarshalRequestBody(request *http.Request, object interface{}) (error) {
+func UnmarshalRequestBody(request *http.Request, object interface{}) error {
 	if request.Body == nil {
 		return errors.NewInvalidRequestError(constant.RequestBodyEmpty)
 	}
