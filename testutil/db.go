@@ -1,7 +1,7 @@
 package testutil
 
 import (
-	"git.thoughtworks.net/mahadeva/sample-golang/pkg/config"
+	"github.com/sujithps/sample-golang/pkg/config"
 	"gopkg.in/mgo.v2"
 )
 

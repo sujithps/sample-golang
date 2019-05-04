@@ -2,10 +2,10 @@ package handler_test
 
 import (
 	"fmt"
-	"git.thoughtworks.net/mahadeva/sample-golang/internal/dependency"
-	"git.thoughtworks.net/mahadeva/sample-golang/internal/domain"
-	"git.thoughtworks.net/mahadeva/sample-golang/pkg/contract"
-	"git.thoughtworks.net/mahadeva/sample-golang/testutil"
+	"github.com/sujithps/sample-golang/internal/dependency"
+	"github.com/sujithps/sample-golang/internal/domain"
+	"github.com/sujithps/sample-golang/pkg/contract"
+	"github.com/sujithps/sample-golang/testutil"
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/net/context"
 	"net/http"

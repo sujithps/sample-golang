@@ -2,7 +2,7 @@ package profiling
 
 import (
 	"context"
-	"git.thoughtworks.net/mahadeva/sample-golang/pkg/appcontext"
+	"github.com/sujithps/sample-golang/pkg/appcontext"
 	"github.com/newrelic/go-agent"
 )
 

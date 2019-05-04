@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"fmt"
-	"git.thoughtworks.net/mahadeva/sample-golang/pkg/logger"
+	"github.com/sujithps/sample-golang/pkg/logger"
 	sentry "github.com/getsentry/raven-go"
 	"github.com/urfave/negroni"
 )

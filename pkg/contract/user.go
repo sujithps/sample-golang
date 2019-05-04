@@ -2,7 +2,7 @@ package contract
 
 import (
 	"fmt"
-	"git.thoughtworks.net/mahadeva/sample-golang/internal/domain"
+	"github.com/sujithps/sample-golang/internal/domain"
 )
 
 type User struct {

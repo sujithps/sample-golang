@@ -2,12 +2,12 @@ package logger
 
 import (
 	"context"
-	"git.thoughtworks.net/mahadeva/sample-golang/pkg/appcontext"
-	"git.thoughtworks.net/mahadeva/sample-golang/pkg/constant"
+	"github.com/sujithps/sample-golang/pkg/appcontext"
+	"github.com/sujithps/sample-golang/pkg/constant"
 	"log"
 	"os"
 
-	"git.thoughtworks.net/mahadeva/sample-golang/pkg/config"
+	"github.com/sujithps/sample-golang/pkg/config"
 	"github.com/sirupsen/logrus"
 )
 

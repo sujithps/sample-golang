@@ -1,10 +1,10 @@
 package dependency
 
 import (
-	"git.thoughtworks.net/mahadeva/sample-golang/internal/db"
-	"git.thoughtworks.net/mahadeva/sample-golang/internal/dependency/providers"
-	"git.thoughtworks.net/mahadeva/sample-golang/internal/service/userservice"
-	"git.thoughtworks.net/mahadeva/sample-golang/pkg/config"
+	"github.com/sujithps/sample-golang/internal/db"
+	"github.com/sujithps/sample-golang/internal/dependency/providers"
+	"github.com/sujithps/sample-golang/internal/service/userservice"
+	"github.com/sujithps/sample-golang/pkg/config"
 	"github.com/newrelic/go-agent"
 )
 

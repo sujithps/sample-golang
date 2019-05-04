@@ -2,7 +2,7 @@ package errors_test
 
 import (
 	"errors"
-	errors2 "git.thoughtworks.net/mahadeva/sample-golang/pkg/errors"
+	errors2 "github.com/sujithps/sample-golang/pkg/errors"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

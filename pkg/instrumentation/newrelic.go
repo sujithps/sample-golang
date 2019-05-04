@@ -1,7 +1,7 @@
 package instrumentation
 
 import (
-	"git.thoughtworks.net/mahadeva/sample-golang/pkg/appcontext"
+	"github.com/sujithps/sample-golang/pkg/appcontext"
 	"github.com/gorilla/mux"
 	"github.com/newrelic/go-agent"
 	"net/http"

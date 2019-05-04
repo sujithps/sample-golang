@@ -2,12 +2,12 @@ package app
 
 import (
 	"fmt"
-	"git.thoughtworks.net/mahadeva/sample-golang/internal/dependency"
-	"git.thoughtworks.net/mahadeva/sample-golang/internal/dependency/providers"
-	"git.thoughtworks.net/mahadeva/sample-golang/internal/router"
-	"git.thoughtworks.net/mahadeva/sample-golang/pkg/config"
-	"git.thoughtworks.net/mahadeva/sample-golang/pkg/logger"
-	"git.thoughtworks.net/mahadeva/sample-golang/pkg/middleware"
+	"github.com/sujithps/sample-golang/internal/dependency"
+	"github.com/sujithps/sample-golang/internal/dependency/providers"
+	"github.com/sujithps/sample-golang/internal/router"
+	"github.com/sujithps/sample-golang/pkg/config"
+	"github.com/sujithps/sample-golang/pkg/logger"
+	"github.com/sujithps/sample-golang/pkg/middleware"
 	"github.com/urfave/cli"
 	"github.com/urfave/negroni"
 	"os"
@@ -16,6 +16,8 @@ import (
 	"syscall"
 	"time"
 )
+
+var foo = "bar"
 
 func Init() {
 	config.Load()

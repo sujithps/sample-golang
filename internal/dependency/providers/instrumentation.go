@@ -1,7 +1,7 @@
 package providers
 
 import (
-	"git.thoughtworks.net/mahadeva/sample-golang/pkg/config"
+	"github.com/sujithps/sample-golang/pkg/config"
 	"github.com/newrelic/go-agent"
 	"github.com/sirupsen/logrus"
 )

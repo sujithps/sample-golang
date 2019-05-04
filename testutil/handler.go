@@ -3,9 +3,9 @@ package testutil
 import (
 	"bytes"
 	"encoding/json"
-	"git.thoughtworks.net/mahadeva/sample-golang/internal/dependency"
-	"git.thoughtworks.net/mahadeva/sample-golang/internal/router"
-	"git.thoughtworks.net/mahadeva/sample-golang/pkg/instrumentation/mocks"
+	"github.com/sujithps/sample-golang/internal/dependency"
+	"github.com/sujithps/sample-golang/internal/router"
+	"github.com/sujithps/sample-golang/pkg/instrumentation/mocks"
 	"github.com/newrelic/go-agent"
 	"github.com/stretchr/testify/assert"
 	"io"

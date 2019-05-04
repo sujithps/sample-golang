@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"git.thoughtworks.net/mahadeva/sample-golang/app"
-	"git.thoughtworks.net/mahadeva/sample-golang/pkg/logger"
+	"github.com/sujithps/sample-golang/app"
+	"github.com/sujithps/sample-golang/pkg/logger"
 )
 
 func handleInitError() {

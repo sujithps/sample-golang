@@ -2,7 +2,7 @@ package db
 
 import (
 	"fmt"
-	"git.thoughtworks.net/mahadeva/sample-golang/pkg/logger"
+	"github.com/sujithps/sample-golang/pkg/logger"
 	"gopkg.in/mgo.v2"
 	"log"
 )

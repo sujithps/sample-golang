@@ -2,11 +2,11 @@ package db_test
 
 import (
 	"context"
-	"git.thoughtworks.net/mahadeva/sample-golang/internal/db"
-	"git.thoughtworks.net/mahadeva/sample-golang/internal/domain"
-	"git.thoughtworks.net/mahadeva/sample-golang/pkg/config"
-	"git.thoughtworks.net/mahadeva/sample-golang/pkg/errors"
-	"git.thoughtworks.net/mahadeva/sample-golang/testutil"
+	"github.com/sujithps/sample-golang/internal/db"
+	"github.com/sujithps/sample-golang/internal/domain"
+	"github.com/sujithps/sample-golang/pkg/config"
+	"github.com/sujithps/sample-golang/pkg/errors"
+	"github.com/sujithps/sample-golang/testutil"
 	"github.com/stretchr/testify/assert"
 	"os"
 	"testing"

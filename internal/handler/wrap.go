@@ -3,10 +3,10 @@ package handler
 import (
 	"encoding/json"
 	"fmt"
-	"git.thoughtworks.net/mahadeva/sample-golang/pkg/constant"
-	"git.thoughtworks.net/mahadeva/sample-golang/pkg/contract"
-	"git.thoughtworks.net/mahadeva/sample-golang/pkg/errors"
-	"git.thoughtworks.net/mahadeva/sample-golang/pkg/logger"
+	"github.com/sujithps/sample-golang/pkg/constant"
+	"github.com/sujithps/sample-golang/pkg/contract"
+	"github.com/sujithps/sample-golang/pkg/errors"
+	"github.com/sujithps/sample-golang/pkg/logger"
 	"io/ioutil"
 	"net/http"
 )

@@ -5,8 +5,8 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"git.thoughtworks.net/mahadeva/sample-golang/internal/service/userservice"
-	"git.thoughtworks.net/mahadeva/sample-golang/pkg/contract"
+	"github.com/sujithps/sample-golang/internal/service/userservice"
+	"github.com/sujithps/sample-golang/pkg/contract"
 )
 
 func GetUser(userService userservice.Client) AppHandler {

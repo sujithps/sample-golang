@@ -1,7 +1,7 @@
 package contract
 
 import (
-	"git.thoughtworks.net/mahadeva/sample-golang/pkg/errors"
+	"github.com/sujithps/sample-golang/pkg/errors"
 	"net/http"
 )
 

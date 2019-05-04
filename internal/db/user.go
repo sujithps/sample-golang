@@ -2,9 +2,9 @@ package db
 
 import (
 	"context"
-	"git.thoughtworks.net/mahadeva/sample-golang/internal/domain"
-	errors2or "git.thoughtworks.net/mahadeva/sample-golang/pkg/errors"
-	"git.thoughtworks.net/mahadeva/sample-golang/pkg/profiling"
+	"github.com/sujithps/sample-golang/internal/domain"
+	errors2or "github.com/sujithps/sample-golang/pkg/errors"
+	"github.com/sujithps/sample-golang/pkg/profiling"
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
 )

@@ -2,9 +2,9 @@ package userservice
 
 import (
 	"context"
-	"git.thoughtworks.net/mahadeva/sample-golang/internal/db"
-	"git.thoughtworks.net/mahadeva/sample-golang/internal/domain"
-	errors2 "git.thoughtworks.net/mahadeva/sample-golang/pkg/errors"
+	"github.com/sujithps/sample-golang/internal/db"
+	"github.com/sujithps/sample-golang/internal/domain"
+	errors2 "github.com/sujithps/sample-golang/pkg/errors"
 	"github.com/pkg/errors"
 )
 

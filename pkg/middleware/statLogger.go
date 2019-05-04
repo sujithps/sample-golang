@@ -1,9 +1,9 @@
 package middleware
 
 import (
-	"git.thoughtworks.net/mahadeva/sample-golang/pkg/appcontext"
-	"git.thoughtworks.net/mahadeva/sample-golang/pkg/constant"
-	"git.thoughtworks.net/mahadeva/sample-golang/pkg/logger"
+	"github.com/sujithps/sample-golang/pkg/appcontext"
+	"github.com/sujithps/sample-golang/pkg/constant"
+	"github.com/sujithps/sample-golang/pkg/logger"
 	"github.com/urfave/negroni"
 	"net/http"
 	"time"

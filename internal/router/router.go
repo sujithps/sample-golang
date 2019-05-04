@@ -1,9 +1,9 @@
 package router
 
 import (
-	"git.thoughtworks.net/mahadeva/sample-golang/internal/dependency"
-	"git.thoughtworks.net/mahadeva/sample-golang/internal/handler"
-	"git.thoughtworks.net/mahadeva/sample-golang/pkg/instrumentation"
+	"github.com/sujithps/sample-golang/internal/dependency"
+	"github.com/sujithps/sample-golang/internal/handler"
+	"github.com/sujithps/sample-golang/pkg/instrumentation"
 	"github.com/gorilla/mux"
 	"net/http"
 )
